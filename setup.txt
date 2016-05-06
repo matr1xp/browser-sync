@@ -1,0 +1,30 @@
+Setup steps:
+
+1. Initialize empty package.
+   $ npm init
+
+2. Install gulp globally.
+   $ npm i gulp -g
+ 
+3. Install gulp locally as a development dependency
+   $ npm i gulp -D
+  
+4. Install browser-sync as a development dependcy
+   $ npm i browser-sync -D
+
+5. Create gulpfile.
+   $ vi gulpfile.js
+  
+  gulp.task('browser-sync', function() {
+    browserSync({
+      files: 'index.html, styles.css, *.*',
+      port: 8082
+    });
+  });
+  
+  6. Start your web server.
+  7. Run gulp task browser-sync.
+   $ gulp browser-syc
+  
+
+  
