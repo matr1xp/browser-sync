@@ -24,7 +24,7 @@ Setup steps:
   
   6. Start your web server.
   7. Run gulp task browser-sync.
-   $ gulp browser-syc
+   $ gulp browser-sync
   
 
   
