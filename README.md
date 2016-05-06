@@ -1,2 +1,2 @@
 # browser-sync
-BrowserSync Project
+Time-saving synchronised browser testing.
